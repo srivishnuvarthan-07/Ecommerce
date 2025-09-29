@@ -1,4 +1,4 @@
+read -p "Enter commit message: " v
 git add .
-git commit -m "batfilecreated"
-git push 
-notepad oooo.cpp
+git commit -m "$v"
+git push
